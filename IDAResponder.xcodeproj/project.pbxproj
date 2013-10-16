@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB83303180EAB7500217104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83302180EAB7500217104 /* Foundation.framework */; };
+		FAB83311180EAB7500217104 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83310180EAB7500217104 /* XCTest.framework */; };
+		FAB83312180EAB7500217104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83302180EAB7500217104 /* Foundation.framework */; };
+		FAB83314180EAB7500217104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83313180EAB7500217104 /* UIKit.framework */; };
+		FAB83317180EAB7500217104 /* libIDAResponder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB832FF180EAB7500217104 /* libIDAResponder.a */; };
+		FAB8331D180EAB7500217104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB8331B180EAB7500217104 /* InfoPlist.strings */; };
+		FAB8331F180EAB7500217104 /* IDAResponderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8331E180EAB7500217104 /* IDAResponderTests.m */; };
+		FAB8332D180EABC200217104 /* BlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* BlockResponder.m */; };
+		FAB8332E180EABC200217104 /* BlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* BlockResponder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB83315180EAB7500217104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB832F7180EAB7500217104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB832FE180EAB7500217104;
+			remoteInfo = IDAResponder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAB832FD180EAB7500217104 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAB832FF180EAB7500217104 /* libIDAResponder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIDAResponder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB83302180EAB7500217104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAB83306180EAB7500217104 /* IDAResponder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDAResponder-Prefix.pch"; sourceTree = "<group>"; };
+		FAB8330F180EAB7500217104 /* IDAResponderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDAResponderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB83310180EAB7500217104 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAB83313180EAB7500217104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAB8331A180EAB7500217104 /* IDAResponderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDAResponderTests-Info.plist"; sourceTree = "<group>"; };
+		FAB8331C180EAB7500217104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAB8331E180EAB7500217104 /* IDAResponderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAResponderTests.m; sourceTree = "<group>"; };
+		FAB83329180EABC200217104 /* BlockResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockResponder.h; sourceTree = "<group>"; };
+		FAB8332A180EABC200217104 /* BlockResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockResponder.m; sourceTree = "<group>"; };
+		FAB8332B180EABC200217104 /* CallHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallHandle.h; sourceTree = "<group>"; };
+		FAB8332C180EABC200217104 /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB832FC180EAB7500217104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB83303180EAB7500217104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8330C180EAB7500217104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB83311180EAB7500217104 /* XCTest.framework in Frameworks */,
+				FAB83314180EAB7500217104 /* UIKit.framework in Frameworks */,
+				FAB83312180EAB7500217104 /* Foundation.framework in Frameworks */,
+				FAB83317180EAB7500217104 /* libIDAResponder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB832F6180EAB7500217104 = {
+			isa = PBXGroup;
+			children = (
+				FAB83304180EAB7500217104 /* IDAResponder */,
+				FAB83318180EAB7500217104 /* IDAResponderTests */,
+				FAB83301180EAB7500217104 /* Frameworks */,
+				FAB83300180EAB7500217104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB83300180EAB7500217104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB832FF180EAB7500217104 /* libIDAResponder.a */,
+				FAB8330F180EAB7500217104 /* IDAResponderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB83301180EAB7500217104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB83302180EAB7500217104 /* Foundation.framework */,
+				FAB83310180EAB7500217104 /* XCTest.framework */,
+				FAB83313180EAB7500217104 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB83304180EAB7500217104 /* IDAResponder */ = {
+			isa = PBXGroup;
+			children = (
+				FAB83328180EABB000217104 /* Classes */,
+				FAB83305180EAB7500217104 /* Supporting Files */,
+			);
+			path = IDAResponder;
+			sourceTree = "<group>";
+		};
+		FAB83305180EAB7500217104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB83306180EAB7500217104 /* IDAResponder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB83318180EAB7500217104 /* IDAResponderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8331E180EAB7500217104 /* IDAResponderTests.m */,
+				FAB83319180EAB7500217104 /* Supporting Files */,
+			);
+			path = IDAResponderTests;
+			sourceTree = "<group>";
+		};
+		FAB83319180EAB7500217104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8331A180EAB7500217104 /* IDAResponderTests-Info.plist */,
+				FAB8331B180EAB7500217104 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB83328180EABB000217104 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAB83329180EABC200217104 /* BlockResponder.h */,
+				FAB8332A180EABC200217104 /* BlockResponder.m */,
+				FAB8332B180EABC200217104 /* CallHandle.h */,
+				FAB8332C180EABC200217104 /* Responder.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB832FE180EAB7500217104 /* IDAResponder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB83322180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponder" */;
+			buildPhases = (
+				FAB832FB180EAB7500217104 /* Sources */,
+				FAB832FC180EAB7500217104 /* Frameworks */,
+				FAB832FD180EAB7500217104 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDAResponder;
+			productName = IDAResponder;
+			productReference = FAB832FF180EAB7500217104 /* libIDAResponder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FAB8330E180EAB7500217104 /* IDAResponderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB83325180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponderTests" */;
+			buildPhases = (
+				FAB8330B180EAB7500217104 /* Sources */,
+				FAB8330C180EAB7500217104 /* Frameworks */,
+				FAB8330D180EAB7500217104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB83316180EAB7500217104 /* PBXTargetDependency */,
+			);
+			name = IDAResponderTests;
+			productName = IDAResponderTests;
+			productReference = FAB8330F180EAB7500217104 /* IDAResponderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB832F7180EAB7500217104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "iDA MediaFoundry";
+			};
+			buildConfigurationList = FAB832FA180EAB7500217104 /* Build configuration list for PBXProject "IDAResponder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB832F6180EAB7500217104;
+			productRefGroup = FAB83300180EAB7500217104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB832FE180EAB7500217104 /* IDAResponder */,
+				FAB8330E180EAB7500217104 /* IDAResponderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB8330D180EAB7500217104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8331D180EAB7500217104 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB832FB180EAB7500217104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8332D180EABC200217104 /* BlockResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8330B180EAB7500217104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8332E180EABC200217104 /* BlockResponder.m in Sources */,
+				FAB8331F180EAB7500217104 /* IDAResponderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB83316180EAB7500217104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB832FE180EAB7500217104 /* IDAResponder */;
+			targetProxy = FAB83315180EAB7500217104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB8331B180EAB7500217104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB8331C180EAB7500217104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB83320180EAB7500217104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAB83321180EAB7500217104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB83323180EAB7500217104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IDAResponder.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAB83324180EAB7500217104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IDAResponder.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FAB83326180EAB7500217104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IDAResponderTests/IDAResponderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAB83327180EAB7500217104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
+				INFOPLIST_FILE = "IDAResponderTests/IDAResponderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB832FA180EAB7500217104 /* Build configuration list for PBXProject "IDAResponder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB83320180EAB7500217104 /* Debug */,
+				FAB83321180EAB7500217104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB83322180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB83323180EAB7500217104 /* Debug */,
+				FAB83324180EAB7500217104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB83325180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB83326180EAB7500217104 /* Debug */,
+				FAB83327180EAB7500217104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB832F7180EAB7500217104 /* Project object */;
+}
