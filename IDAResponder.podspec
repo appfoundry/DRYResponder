@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IDAResponder"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "iOS Implementation of Responder/CallHandle."
   s.description  = <<-DESC
                    The iOS implementation of the Responder and CallHandle concepts
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = 'Apache License, Version 2.0'
   s.authors      = { "Alex Manarpies" => "alex.manarpies@ida-mediafoundry.be", "Mike Seghers" => "michael.seghers@ida-mediafoundry.be" }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "ssh://git@bitbucket.org/manaral/idaresponder.git", :tag => "1.0.0" }
+  s.source       = { :git => "ssh://git@bitbucket.org/manaral/idaresponder.git", :tag => "1.0.1" }
   s.source_files  = 'IDAResponder/Classes', 'IDAResponder/Classes/**/*.{h,m}'
 
 end

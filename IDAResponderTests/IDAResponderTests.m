@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "IDAResponder.h"
+#import "IDABlockResponder.h"
 
 @interface IDAResponderTests : XCTestCase
 
@@ -26,9 +28,15 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testBasic
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    id<IDAResponder> responder = [[IDABlockResponder alloc] initWithResultBlock:^(id result) {
+        //
+    } andErrorBlock:^(NSError *error) {
+        //
+    }];
+    
+    XCTAssertNotNil(responder, @"Responder should not be nil");
 }
 
 @end
