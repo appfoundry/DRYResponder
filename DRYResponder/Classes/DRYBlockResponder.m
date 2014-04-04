@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 iDA MediaFoundry. All rights reserved.
 //
 
-#import "IDABlockResponder.h"
+#import "DRYBlockResponder.h"
 
-@implementation IDABlockResponder {
+@implementation DRYBlockResponder {
     ResultBlock _resultBlock;
     ErrorBlock _errorBlock;
     StatusBlock _statusBlock;

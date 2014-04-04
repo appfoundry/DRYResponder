@@ -1,20 +1,20 @@
 //
-//  IDAResponderTests.m
-//  IDAResponderTests
+//  DRYResponderTests.m
+//  DRYResponderTests
 //
 //  Created by Alex Manarpies on 16/10/13.
 //  Copyright (c) 2013 iDA MediaFoundry. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "IDAResponder.h"
-#import "IDABlockResponder.h"
+#import "DRYResponder.h"
+#import "DRYBlockResponder.h"
 
-@interface IDAResponderTests : XCTestCase
+@interface DRYResponderTests : XCTestCase
 
 @end
 
-@implementation IDAResponderTests
+@implementation DRYResponderTests
 
 - (void)setUp
 {
@@ -30,7 +30,7 @@
 
 - (void)testBasic
 {
-    id<IDAResponder> responder = [[IDABlockResponder alloc] initWithResultBlock:^(id result) {
+    id<DRYResponder> responder = [[DRYBlockResponder alloc] initWithResultBlock:^(id result) {
         //
     } andErrorBlock:^(NSError *error) {
         //

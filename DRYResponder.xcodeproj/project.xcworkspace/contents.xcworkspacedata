@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IDAResponder.xcodeproj">
+      location = "self:DRYResponder.xcodeproj">
    </FileRef>
 </Workspace>

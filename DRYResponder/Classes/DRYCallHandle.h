@@ -13,7 +13,7 @@
  
  The called operation should never retain the returned call handle, it is the caller that should take ownership. As soon as the operation is finished (see Responder) or cancelled, the caller should also release it's ownership to this handle.
  */
-@protocol IDACallHandle <NSObject>
+@protocol DRYCallHandle <NSObject>
 
 /**
  Notifies the ongoing assynchronous operation that the caller is no longer interested in a result. The caller should also directly release it's ownership to this object after calling this method.

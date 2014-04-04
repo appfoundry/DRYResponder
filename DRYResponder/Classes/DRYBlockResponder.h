@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IDAResponder.h"
+#import "DRYResponder.h"
 
 /**
  Block to be used by a responder for handing over results.
@@ -30,7 +30,7 @@ typedef void (^StatusBlock)(NSUInteger status, NSDictionary *userInfo);
  handleResult will call the ResultBlock with the result as argument, handleError will call the ErrorBlock with the error as argument and handleStatus
  will call the StatusBlock with the status and user info. The status block is optional, if it is missing, handleStatus will do nothing.
  */
-@interface IDABlockResponder : NSObject<IDAResponder>
+@interface DRYBlockResponder : NSObject<DRYResponder>
 
 /**
  Initializes a BlockResponder with the necessary blocks. This is the designated init method.

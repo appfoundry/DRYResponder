@@ -11,11 +11,11 @@
 		FAB83311180EAB7500217104 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83310180EAB7500217104 /* XCTest.framework */; };
 		FAB83312180EAB7500217104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83302180EAB7500217104 /* Foundation.framework */; };
 		FAB83314180EAB7500217104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83313180EAB7500217104 /* UIKit.framework */; };
-		FAB83317180EAB7500217104 /* libIDAResponder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB832FF180EAB7500217104 /* libIDAResponder.a */; };
+		FAB83317180EAB7500217104 /* libDRYResponder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB832FF180EAB7500217104 /* libDRYResponder.a */; };
 		FAB8331D180EAB7500217104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB8331B180EAB7500217104 /* InfoPlist.strings */; };
-		FAB8331F180EAB7500217104 /* IDAResponderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8331E180EAB7500217104 /* IDAResponderTests.m */; };
-		FAB8332D180EABC200217104 /* IDABlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* IDABlockResponder.m */; };
-		FAB8332E180EABC200217104 /* IDABlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* IDABlockResponder.m */; };
+		FAB8331F180EAB7500217104 /* DRYResponderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8331E180EAB7500217104 /* DRYResponderTests.m */; };
+		FAB8332D180EABC200217104 /* DRYBlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* DRYBlockResponder.m */; };
+		FAB8332E180EABC200217104 /* DRYBlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* DRYBlockResponder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,19 +41,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FAB832FF180EAB7500217104 /* libIDAResponder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIDAResponder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB832FF180EAB7500217104 /* libDRYResponder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDRYResponder.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB83302180EAB7500217104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FAB83306180EAB7500217104 /* IDAResponder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDAResponder-Prefix.pch"; sourceTree = "<group>"; };
-		FAB8330F180EAB7500217104 /* IDAResponderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDAResponderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB83306180EAB7500217104 /* DRYResponder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRYResponder-Prefix.pch"; sourceTree = "<group>"; };
+		FAB8330F180EAB7500217104 /* DRYResponderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYResponderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB83310180EAB7500217104 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FAB83313180EAB7500217104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		FAB8331A180EAB7500217104 /* IDAResponderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDAResponderTests-Info.plist"; sourceTree = "<group>"; };
+		FAB8331A180EAB7500217104 /* DRYResponderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DRYResponderTests-Info.plist"; sourceTree = "<group>"; };
 		FAB8331C180EAB7500217104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FAB8331E180EAB7500217104 /* IDAResponderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAResponderTests.m; sourceTree = "<group>"; };
-		FAB83329180EABC200217104 /* IDABlockResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDABlockResponder.h; sourceTree = "<group>"; };
-		FAB8332A180EABC200217104 /* IDABlockResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDABlockResponder.m; sourceTree = "<group>"; };
-		FAB8332B180EABC200217104 /* IDACallHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDACallHandle.h; sourceTree = "<group>"; };
-		FAB8332C180EABC200217104 /* IDAResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAResponder.h; sourceTree = "<group>"; };
+		FAB8331E180EAB7500217104 /* DRYResponderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRYResponderTests.m; sourceTree = "<group>"; };
+		FAB83329180EABC200217104 /* DRYBlockResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRYBlockResponder.h; sourceTree = "<group>"; };
+		FAB8332A180EABC200217104 /* DRYBlockResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYBlockResponder.m; sourceTree = "<group>"; };
+		FAB8332B180EABC200217104 /* DRYCallHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRYCallHandle.h; sourceTree = "<group>"; };
+		FAB8332C180EABC200217104 /* DRYResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRYResponder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 				FAB83311180EAB7500217104 /* XCTest.framework in Frameworks */,
 				FAB83314180EAB7500217104 /* UIKit.framework in Frameworks */,
 				FAB83312180EAB7500217104 /* Foundation.framework in Frameworks */,
-				FAB83317180EAB7500217104 /* libIDAResponder.a in Frameworks */,
+				FAB83317180EAB7500217104 /* libDRYResponder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +82,8 @@
 		FAB832F6180EAB7500217104 = {
 			isa = PBXGroup;
 			children = (
-				FAB83304180EAB7500217104 /* IDAResponder */,
-				FAB83318180EAB7500217104 /* IDAResponderTests */,
+				FAB83304180EAB7500217104 /* DRYResponder */,
+				FAB83318180EAB7500217104 /* DRYResponderTests */,
 				FAB83301180EAB7500217104 /* Frameworks */,
 				FAB83300180EAB7500217104 /* Products */,
 			);
@@ -92,8 +92,8 @@
 		FAB83300180EAB7500217104 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAB832FF180EAB7500217104 /* libIDAResponder.a */,
-				FAB8330F180EAB7500217104 /* IDAResponderTests.xctest */,
+				FAB832FF180EAB7500217104 /* libDRYResponder.a */,
+				FAB8330F180EAB7500217104 /* DRYResponderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,36 +108,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAB83304180EAB7500217104 /* IDAResponder */ = {
+		FAB83304180EAB7500217104 /* DRYResponder */ = {
 			isa = PBXGroup;
 			children = (
 				FAB83328180EABB000217104 /* Classes */,
 				FAB83305180EAB7500217104 /* Supporting Files */,
 			);
-			path = IDAResponder;
+			path = DRYResponder;
 			sourceTree = "<group>";
 		};
 		FAB83305180EAB7500217104 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAB83306180EAB7500217104 /* IDAResponder-Prefix.pch */,
+				FAB83306180EAB7500217104 /* DRYResponder-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FAB83318180EAB7500217104 /* IDAResponderTests */ = {
+		FAB83318180EAB7500217104 /* DRYResponderTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAB8331E180EAB7500217104 /* IDAResponderTests.m */,
+				FAB8331E180EAB7500217104 /* DRYResponderTests.m */,
 				FAB83319180EAB7500217104 /* Supporting Files */,
 			);
-			path = IDAResponderTests;
+			path = DRYResponderTests;
 			sourceTree = "<group>";
 		};
 		FAB83319180EAB7500217104 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAB8331A180EAB7500217104 /* IDAResponderTests-Info.plist */,
+				FAB8331A180EAB7500217104 /* DRYResponderTests-Info.plist */,
 				FAB8331B180EAB7500217104 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -146,10 +146,10 @@
 		FAB83328180EABB000217104 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FAB83329180EABC200217104 /* IDABlockResponder.h */,
-				FAB8332A180EABC200217104 /* IDABlockResponder.m */,
-				FAB8332B180EABC200217104 /* IDACallHandle.h */,
-				FAB8332C180EABC200217104 /* IDAResponder.h */,
+				FAB83329180EABC200217104 /* DRYBlockResponder.h */,
+				FAB8332A180EABC200217104 /* DRYBlockResponder.m */,
+				FAB8332B180EABC200217104 /* DRYCallHandle.h */,
+				FAB8332C180EABC200217104 /* DRYResponder.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAB832FE180EAB7500217104 /* IDAResponder */ = {
+		FAB832FE180EAB7500217104 /* DRYResponder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAB83322180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponder" */;
+			buildConfigurationList = FAB83322180EAB7500217104 /* Build configuration list for PBXNativeTarget "DRYResponder" */;
 			buildPhases = (
 				FAB832FB180EAB7500217104 /* Sources */,
 				FAB832FC180EAB7500217104 /* Frameworks */,
@@ -169,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = IDAResponder;
+			name = DRYResponder;
 			productName = IDAResponder;
-			productReference = FAB832FF180EAB7500217104 /* libIDAResponder.a */;
+			productReference = FAB832FF180EAB7500217104 /* libDRYResponder.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FAB8330E180EAB7500217104 /* IDAResponderTests */ = {
+		FAB8330E180EAB7500217104 /* DRYResponderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAB83325180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponderTests" */;
+			buildConfigurationList = FAB83325180EAB7500217104 /* Build configuration list for PBXNativeTarget "DRYResponderTests" */;
 			buildPhases = (
 				FAB8330B180EAB7500217104 /* Sources */,
 				FAB8330C180EAB7500217104 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				FAB83316180EAB7500217104 /* PBXTargetDependency */,
 			);
-			name = IDAResponderTests;
+			name = DRYResponderTests;
 			productName = IDAResponderTests;
-			productReference = FAB8330F180EAB7500217104 /* IDAResponderTests.xctest */;
+			productReference = FAB8330F180EAB7500217104 /* DRYResponderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -198,10 +198,15 @@
 		FAB832F7180EAB7500217104 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "iDA MediaFoundry";
+				TargetAttributes = {
+					FAB8330E180EAB7500217104 = {
+						TestTargetID = FAB832FE180EAB7500217104;
+					};
+				};
 			};
-			buildConfigurationList = FAB832FA180EAB7500217104 /* Build configuration list for PBXProject "IDAResponder" */;
+			buildConfigurationList = FAB832FA180EAB7500217104 /* Build configuration list for PBXProject "DRYResponder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAB832FE180EAB7500217104 /* IDAResponder */,
-				FAB8330E180EAB7500217104 /* IDAResponderTests */,
+				FAB832FE180EAB7500217104 /* DRYResponder */,
+				FAB8330E180EAB7500217104 /* DRYResponderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB8332D180EABC200217104 /* IDABlockResponder.m in Sources */,
+				FAB8332D180EABC200217104 /* DRYBlockResponder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB8332E180EABC200217104 /* IDABlockResponder.m in Sources */,
-				FAB8331F180EAB7500217104 /* IDAResponderTests.m in Sources */,
+				FAB8332E180EABC200217104 /* DRYBlockResponder.m in Sources */,
+				FAB8331F180EAB7500217104 /* DRYResponderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +258,7 @@
 /* Begin PBXTargetDependency section */
 		FAB83316180EAB7500217104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAB832FE180EAB7500217104 /* IDAResponder */;
+			target = FAB832FE180EAB7500217104 /* DRYResponder */;
 			targetProxy = FAB83315180EAB7500217104 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -274,7 +279,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -312,7 +316,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,9 +348,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/IDAResponder.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
+				GCC_PREFIX_HEADER = "DRYResponder/DRYResponder-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DRYResponder;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -357,9 +360,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/IDAResponder.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
+				GCC_PREFIX_HEADER = "DRYResponder/DRYResponder-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DRYResponder;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -367,20 +370,19 @@
 		FAB83326180EAB7500217104 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
+				GCC_PREFIX_HEADER = "DRYResponder/DRYResponder-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "IDAResponderTests/IDAResponderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DRYResponderTests/DRYResponderTests-Info.plist";
+				PRODUCT_NAME = DRYResponderTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -388,16 +390,15 @@
 		FAB83327180EAB7500217104 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IDAResponder/IDAResponder-Prefix.pch";
-				INFOPLIST_FILE = "IDAResponderTests/IDAResponderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DRYResponder/DRYResponder-Prefix.pch";
+				INFOPLIST_FILE = "DRYResponderTests/DRYResponderTests-Info.plist";
+				PRODUCT_NAME = DRYResponderTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -405,7 +406,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAB832FA180EAB7500217104 /* Build configuration list for PBXProject "IDAResponder" */ = {
+		FAB832FA180EAB7500217104 /* Build configuration list for PBXProject "DRYResponder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAB83320180EAB7500217104 /* Debug */,
@@ -414,7 +415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAB83322180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponder" */ = {
+		FAB83322180EAB7500217104 /* Build configuration list for PBXNativeTarget "DRYResponder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAB83323180EAB7500217104 /* Debug */,
@@ -423,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAB83325180EAB7500217104 /* Build configuration list for PBXNativeTarget "IDAResponderTests" */ = {
+		FAB83325180EAB7500217104 /* Build configuration list for PBXNativeTarget "DRYResponderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAB83326180EAB7500217104 /* Debug */,

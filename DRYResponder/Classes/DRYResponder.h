@@ -13,7 +13,7 @@
  
  It is typically a wrapper around one or more delegates. This enables a looser coupling between the delegate and the operation class.
  */
-@protocol IDAResponder <NSObject>
+@protocol DRYResponder <NSObject>
 
 /**
  When the assynchronous operation is successful, it should call this method with it's result. The result may be nil.
