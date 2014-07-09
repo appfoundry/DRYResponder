@@ -3,7 +3,7 @@
 //  RESTDemo
 //
 //  Created by Michael Seghers on 20/06/12.
-//  Copyright (c) 2012 iDA MediaFoundry. All rights reserved.
+//  Copyright (c) 2014 AppFoundry. All rights reserved.
 //
 
 #import "DRYBlockResponder.h"
