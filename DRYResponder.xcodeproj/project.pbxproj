@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3323F5F1922137B517C1E2BD /* DRYURLSessionTaskCallHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3323FE2E6CFB4C052043A44F /* DRYURLSessionTaskCallHandle.m */; };
+		3323FD2AB40437BE678EB341 /* DRYURLSessionTaskCallHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3323FE2E6CFB4C052043A44F /* DRYURLSessionTaskCallHandle.m */; };
+		3323FD911D1C8408120E21CB /* DRYURLSessionTaskCallHandleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3323FFEF29945431C80E0104 /* DRYURLSessionTaskCallHandleTest.m */; };
 		FAB83303180EAB7500217104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83302180EAB7500217104 /* Foundation.framework */; };
 		FAB83311180EAB7500217104 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83310180EAB7500217104 /* XCTest.framework */; };
 		FAB83312180EAB7500217104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83302180EAB7500217104 /* Foundation.framework */; };
@@ -41,6 +44,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3323FC462D4F04D5EA7FDC8D /* DRYURLSessionTaskCallHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRYURLSessionTaskCallHandle.h; sourceTree = "<group>"; };
+		3323FE2E6CFB4C052043A44F /* DRYURLSessionTaskCallHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYURLSessionTaskCallHandle.m; sourceTree = "<group>"; };
+		3323FFEF29945431C80E0104 /* DRYURLSessionTaskCallHandleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYURLSessionTaskCallHandleTest.m; sourceTree = "<group>"; };
 		FAB832FF180EAB7500217104 /* libDRYResponder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDRYResponder.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB83302180EAB7500217104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAB83306180EAB7500217104 /* DRYResponder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRYResponder-Prefix.pch"; sourceTree = "<group>"; };
@@ -130,6 +136,7 @@
 			children = (
 				FAB8331E180EAB7500217104 /* DRYResponderTests.m */,
 				FAB83319180EAB7500217104 /* Supporting Files */,
+				3323FFEF29945431C80E0104 /* DRYURLSessionTaskCallHandleTest.m */,
 			);
 			path = DRYResponderTests;
 			sourceTree = "<group>";
@@ -150,6 +157,8 @@
 				FAB8332A180EABC200217104 /* DRYBlockResponder.m */,
 				FAB8332B180EABC200217104 /* DRYCallHandle.h */,
 				FAB8332C180EABC200217104 /* DRYResponder.h */,
+				3323FE2E6CFB4C052043A44F /* DRYURLSessionTaskCallHandle.m */,
+				3323FC462D4F04D5EA7FDC8D /* DRYURLSessionTaskCallHandle.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB8332D180EABC200217104 /* DRYBlockResponder.m in Sources */,
+				3323FD2AB40437BE678EB341 /* DRYURLSessionTaskCallHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +260,8 @@
 			files = (
 				FAB8332E180EABC200217104 /* DRYBlockResponder.m in Sources */,
 				FAB8331F180EAB7500217104 /* DRYResponderTests.m in Sources */,
+				3323FD911D1C8408120E21CB /* DRYURLSessionTaskCallHandleTest.m in Sources */,
+				3323F5F1922137B517C1E2BD /* DRYURLSessionTaskCallHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
