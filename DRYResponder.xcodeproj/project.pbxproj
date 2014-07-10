@@ -16,7 +16,7 @@
 		FAB83314180EAB7500217104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB83313180EAB7500217104 /* UIKit.framework */; };
 		FAB83317180EAB7500217104 /* libDRYResponder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB832FF180EAB7500217104 /* libDRYResponder.a */; };
 		FAB8331D180EAB7500217104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB8331B180EAB7500217104 /* InfoPlist.strings */; };
-		FAB8331F180EAB7500217104 /* DRYResponderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8331E180EAB7500217104 /* DRYResponderTests.m */; };
+		FAB8331F180EAB7500217104 /* DRYBlockResponderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8331E180EAB7500217104 /* DRYBlockResponderTests.m */; };
 		FAB8332D180EABC200217104 /* DRYBlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* DRYBlockResponder.m */; };
 		FAB8332E180EABC200217104 /* DRYBlockResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8332A180EABC200217104 /* DRYBlockResponder.m */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,7 @@
 		FAB83313180EAB7500217104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FAB8331A180EAB7500217104 /* DRYResponderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DRYResponderTests-Info.plist"; sourceTree = "<group>"; };
 		FAB8331C180EAB7500217104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FAB8331E180EAB7500217104 /* DRYResponderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRYResponderTests.m; sourceTree = "<group>"; };
+		FAB8331E180EAB7500217104 /* DRYBlockResponderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRYBlockResponderTests.m; sourceTree = "<group>"; };
 		FAB83329180EABC200217104 /* DRYBlockResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRYBlockResponder.h; sourceTree = "<group>"; };
 		FAB8332A180EABC200217104 /* DRYBlockResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYBlockResponder.m; sourceTree = "<group>"; };
 		FAB8332B180EABC200217104 /* DRYCallHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRYCallHandle.h; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		FAB83318180EAB7500217104 /* DRYResponderTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAB8331E180EAB7500217104 /* DRYResponderTests.m */,
+				FAB8331E180EAB7500217104 /* DRYBlockResponderTests.m */,
 				FAB83319180EAB7500217104 /* Supporting Files */,
 				3323FFEF29945431C80E0104 /* DRYURLSessionTaskCallHandleTest.m */,
 			);
@@ -259,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB8332E180EABC200217104 /* DRYBlockResponder.m in Sources */,
-				FAB8331F180EAB7500217104 /* DRYResponderTests.m in Sources */,
+				FAB8331F180EAB7500217104 /* DRYBlockResponderTests.m in Sources */,
 				3323FD911D1C8408120E21CB /* DRYURLSessionTaskCallHandleTest.m in Sources */,
 				3323F5F1922137B517C1E2BD /* DRYURLSessionTaskCallHandle.m in Sources */,
 			);

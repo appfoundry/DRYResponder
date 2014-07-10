@@ -32,6 +32,8 @@ typedef void (^StatusBlock)(NSUInteger status, NSDictionary *userInfo);
  */
 @interface DRYBlockResponder : NSObject<DRYResponder>
 
+@property(nonatomic, strong) dispatch_queue_t completionQueue;
+
 /**
  Initializes a BlockResponder with the necessary blocks. This is the designated init method.
  

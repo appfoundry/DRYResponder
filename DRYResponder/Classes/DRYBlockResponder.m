@@ -14,7 +14,7 @@
     StatusBlock _statusBlock;
 }
 
-- (id)initWithResultBlock:(ResultBlock) resultBlock andErrorBlock:(ErrorBlock) errorBlock {
+- (id)initWithResultBlock:(ResultBlock)resultBlock andErrorBlock:(ErrorBlock)errorBlock {
     self = [super init];
     if (self) {
         _resultBlock = [resultBlock copy];
@@ -23,7 +23,7 @@
     return self;
 }
 
--(id)initWithResultBlock:(ResultBlock)resultBlock andErrorBlock:(ErrorBlock)errorBlock andStatusBlock:(StatusBlock)statusBlock {
+- (id)initWithResultBlock:(ResultBlock)resultBlock andErrorBlock:(ErrorBlock)errorBlock andStatusBlock:(StatusBlock)statusBlock {
     self = [self initWithResultBlock:resultBlock andErrorBlock:errorBlock];
     if (self) {
         _statusBlock = [statusBlock copy];
@@ -32,17 +32,37 @@
 }
 
 - (void)handleResult:(id)result {
-    _resultBlock(result);
+    [self _executeBlockOnAppropriateQueue:^{
+        _resultBlock(result);
+    }];
 }
 
 - (void)handleError:(NSError *)error {
-    _errorBlock(error);
+    [self _executeBlockOnAppropriateQueue:^{
+        _errorBlock(error);
+    }];
 }
 
 - (void)handleStatus:(NSUInteger)status withUserInfo:(NSDictionary *)userInfo {
     if (_statusBlock) {
-        _statusBlock(status, userInfo);
+        [self _executeBlockOnAppropriateQueue:^{
+            _statusBlock(status, userInfo);
+        }];
     }
+}
+
+- (void)_executeBlockOnAppropriateQueue:(void (^)())blockToCall {
+    if ([self _completionShouldHappenOnMainThread]) {
+        blockToCall();
+    } else {
+        dispatch_async(self.completionQueue ?: dispatch_get_main_queue(), ^{
+            blockToCall();
+        });
+    }
+}
+
+- (BOOL) _completionShouldHappenOnMainThread {
+    return  [NSThread isMainThread] && (self.completionQueue == dispatch_get_main_queue() || self.completionQueue == nil);
 }
 
 @end
