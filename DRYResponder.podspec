@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "DRYResponder"
-  s.version          = "1.2.0"
+  s.version          = "1.3.0"
   s.summary          = "iOS Implementation of Responder/CallHandle."
   s.description      = <<-DESC
                    The iOS implementation of the Responder and CallHandle concepts
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.authors          = { "Alex Manarpies" => "alex.manarpies@ida-mediafoundry.be", "Mike Seghers" => "michael.seghers@ida-mediafoundry.be" }
   s.social_media_url = 'https://twitter.com/appfoundrybe'
   s.platform         = :ios, '5.0'
-  s.source           = { :git => "https://github.com/appfoundry/DRYResponder.git", :tag => "1.2.0" }
+  s.source           = { :git => "https://github.com/appfoundry/DRYResponder.git", :tag => "1.3.0" }
   s.source_files     = 'DRYResponder/Classes', 'DRYResponder/Classes/**/*.{h,m}'
 
 end
