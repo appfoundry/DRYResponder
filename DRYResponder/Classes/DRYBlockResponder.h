@@ -32,6 +32,9 @@ typedef void (^StatusBlock)(NSUInteger status, NSDictionary *userInfo);
  */
 @interface DRYBlockResponder : NSObject<DRYResponder>
 
+/**
+The dispatch queue to be used when calling the result, error and status blocks. The default is NULL. If NULL, the the blocks are dispatched to the main queue.
+*/
 @property(nonatomic, strong) dispatch_queue_t completionQueue;
 
 /**
