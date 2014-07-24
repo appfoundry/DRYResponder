@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: DRYResponder.xcodeproj
+xcode_scheme: DRYResponder 
