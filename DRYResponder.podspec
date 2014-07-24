@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.authors          = { "Alex Manarpies" => "alex.manarpies@ida-mediafoundry.be", "Mike Seghers" => "michael.seghers@ida-mediafoundry.be" }
   s.social_media_url = 'https://twitter.com/appfoundrybe'
-  s.platform         = :ios, '6.0'
+  s.platform         = :ios, '7.0'
   s.source           = { :git => "https://github.com/appfoundry/DRYResponder.git", :tag => "1.3.0" }
   s.source_files     = 'DRYResponder/Classes', 'DRYResponder/Classes/**/*.{h,m}'
 
