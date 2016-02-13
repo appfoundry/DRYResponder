@@ -1,7 +1,7 @@
 DRYResponder
 ============
 
-[![DRYResponder build status](https://travis-ci.org/appfoundry/DRYResponder.svg?branch=master)](https://travis-ci.org/appfoundry/DRYResponder)   [![Cocoapods Version](https://cocoapod-badges.herokuapp.com/v/DRYResponder/badge.png)](http://cocoadocs.org/docsets/DRYResponder/)
+[![DRYResponder build status](https://travis-ci.org/appfoundry/DRYResponder.svg?branch=master)](https://travis-ci.org/appfoundry/DRYResponder)   [![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/DRYResponder/badge.png)](http://cocoadocs.org/docsets/DRYResponder/)
 
 This project holds our very light-weight callhandle and responder framework for asynchronous communication, typically between an app and a backend system.
 
